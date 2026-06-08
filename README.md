@@ -7,11 +7,12 @@ Projeto completo de segmentacao semantica com UNet, do treinamento ao deploy no 
 ## Estrutura do Projeto
 
 ```
-SegmentationApp/
+SegmentationApp_AJL/
 ├── train/                      # Treinamento do modelo
 │   ├── train.py                # Script de treinamento UNet
 │   ├── export_tflite.py        # Conversao PyTorch -> TFLite
 │   └── requirements.txt        # Dependencias Python
+├── train_completo.ipynb
 ├── app/
 │   ├── src/
 │   │   └── main/
@@ -24,6 +25,7 @@ SegmentationApp/
 │   │       │       └── activity_main.xml
 │   │       └── AndroidManifest.xml
 │   └── build.gradle.kts
+├── PIPELINE_INFERENCIA_VISUALIZACION.ipynb
 └── README.md
 ```
 

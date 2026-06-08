@@ -1,0 +1,12 @@
+!pip install torch torchvision torchmetrics -q
+
+!pip install tensorflow==2.16.1 -q
+
+!pip install onnx==1.17.0 -q
+!pip install onnxruntime -q
+
+!pip install onnx2tf -q
+
+!pip install onnx_graphsurgeon -q
+
+!pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0
